@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>A read on the orchestration layer between Entanglement parent and its spin-outs</title>
+<meta name="description" content="Saw the AOS deal closed in January, which means Verlinden now owns the science-rigor side of the parent while Jason is closing Oracle, Cassava, and QMCO in parallel. I have a specific hypothesis about where the context between those two halves of the house is about to start drifting." />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a href="https://entanglement.com" target="_blank" rel="noopener" class="brand" aria-label="Entanglement">
+      <img src="logo.png" alt="Entanglement" />
+    </a>
+    <span class="nav-meta">Prepared for Entanglement, Inc. / Booth 309 / eMerge Americas 2026</span>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">
+      <span class="dot" aria-hidden="true"></span>
+      <span>A private memorandum for the office of the Chief Technologist</span>
+    </div>
+    <h1>A read on the orchestration layer between Entanglement parent and its spin-outs.</h1>
+    <p class="sub">Six product lines. Two clocks. One holding structure. The thesis below is written for Entanglement, not sent to everyone.</p>
+
+    <div class="cta-row">
+      <a class="btn primary" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Thirty minutes with Matt Creamer</a>
+      <a class="btn ghost" href="#pitch">Read the thesis</a>
+    </div>
+
+    <div class="signal-strip" role="list">
+      <div role="listitem"><span class="s-num">120M</span><span class="s-lbl">inferences per second, Ground-Truth on Groq, validated by the Army Analytics Group</span></div>
+      <div role="listitem"><span class="s-num">Jan 2026</span><span class="s-lbl">AOS acquisition closed, 21 ocean scientists added</span></div>
+      <div role="listitem"><span class="s-num">6</span><span class="s-lbl">product lines under one roof</span></div>
+    </div>
+  </div>
+  <div class="field" aria-hidden="true"></div>
+</section>
+
+<section class="divider" aria-hidden="true"><div class="wrap"><span class="rule"></span></div></section>
+
+<section id="pitch" class="pitch">
+  <div class="wrap grid">
+
+    <aside class="side">
+      <div class="side-label">I. Context</div>
+      <div class="side-label">II. Thesis</div>
+      <div class="side-label">III. Method</div>
+      <div class="side-label">IV. Precedent</div>
+      <div class="side-label">V. Next step</div>
+    </aside>
+
+    <article class="body">
+
+      <div class="section-tag">I. Context</div>
+      <p>Entanglement runs a deep-tech holding company that acts on two clocks at once. The parent closes partnerships on a commercial calendar: <a href="https://www.oracle.com/news/announcement/oracle-and-entanglement-partner-to-deliver-advanced-security-to-governments-and-enterprises-2025-05-13/" target="_blank" rel="noopener">Oracle Cloud Infrastructure in May 2025</a>, <a href="https://investors.quantum.com/news-events/press-releases/detail/240/quantum-and-entanglement-forge-strategic-partnership-to" target="_blank" rel="noopener">Quantum Corporation in October</a>, <a href="https://www.cassavatechnologies.com/cassava-technologies-and-entanglement-inc-partner-to-accelerate-ai-cyber-security-and-quantum-innovation-across-africa-and-the-middle-east/" target="_blank" rel="noopener">Cassava Technologies in November</a>. SeQure ships zero-trust cybersecurity <a href="https://www.prnewswire.com/news-releases/us-army-analytics-group-confirms-1000x-performant-cybersecurity-technology-by-entanglement-ai-run-on-groq-hardware-advancing-national-security-systems-301658012.html" target="_blank" rel="noopener">validated by the Army Analytics Group at 120 million inferences per second on Groq hardware</a>. Maritech Intelligence Systems launched with MIST and MADEN against a Navy, DARPA, NOAA, and ONR heritage inherited through <a href="https://www.entanglement.com/post/entanglement-completes-acquisition-of-applied-ocean-sciences" target="_blank" rel="noopener">the Applied Ocean Sciences acquisition in January 2026</a>. Six product lines live under one roof. That structure rewards scale and punishes context drift.</p>
+
+      <div class="section-tag">II. Thesis</div>
+      <p>Most organizations solve that problem too late. They automate the wrong layer, then inherit the technical debt for five years. The useful view is simpler. Roughly 60% of orchestration work is traditional code and database plumbing. 30% is rule-based logic. 10% is the genuinely novel AI problem. For Entanglement, the 10% is obvious and well-staffed: the algorithmic core, the quantum-inspired optimization work, the AGI research posture. The 60% and 30% are where holding companies leak value. Context duplication across entities. Proposal writing that restarts each cycle. Engineering onboarding that takes a quarter instead of a month. Orchestration patterns that ship once to one customer and never get reused for the next.</p>
+
+      <div class="tri" aria-label="Layer ratio">
+        <div class="tri-row"><span class="tri-pct" style="--w:60%">60%</span><span class="tri-lbl">traditional code / database plumbing</span></div>
+        <div class="tri-row"><span class="tri-pct" style="--w:30%">30%</span><span class="tri-lbl">rule-based logic</span></div>
+        <div class="tri-row"><span class="tri-pct accent" style="--w:10%">10%</span><span class="tri-lbl">genuine AI problem</span></div>
+      </div>
+
+      <div class="section-tag">III. Method</div>
+      <p>There is a methodology for this. Eduba's Interpretable Context Methodology treats agent and organizational context as a layered filesystem. L0 identity, L1 routing, L2 contracts, L3 reusable factory, L4 working artifacts. Each layer has a defined purpose and a defined reader. For a holding company with spin-outs, it maps directly. Parent-level identity and routing at L0/L1. Per-entity contracts and stage gates at L2. Shared reusable assets, proposal libraries, technical narrative patterns, federal documentation scaffolds at L3. Customer deployments and program artifacts at L4. Work moves faster because context is organized, and governance is measurable because the structure is legible. The paper is published and the repository is open: <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>, MIT license, submitted to ACM TiiS.</p>
+
+      <div class="layers" aria-label="ICM layers">
+        <div class="layer"><span class="l-id">L0</span><span class="l-nm">Identity</span></div>
+        <div class="layer"><span class="l-id">L1</span><span class="l-nm">Routing</span></div>
+        <div class="layer"><span class="l-id">L2</span><span class="l-nm">Contracts</span></div>
+        <div class="layer"><span class="l-id">L3</span><span class="l-nm">Reusable factory</span></div>
+        <div class="layer"><span class="l-id">L4</span><span class="l-nm">Working artifacts</span></div>
+      </div>
+
+      <div class="section-tag">IV. Precedent</div>
+      <p>The closest prior engagement on our side is Feeld. A product-company CTO, a scoped sprint, and three deliverables: workshop, Organizational Context Architecture, Strategic Operations Framework. The CTO came in trying to operationalize AI internally across a product surface larger than his team could cover. The engagement did not replace the stack. It specified how context moved through it. Adjacent credential: forty-plus executives trained at KPMG UK, one of the Big Four. Scope transfers more than dollar figures in a conversation like this one.</p>
+
+      <p class="note">Eduba partners with NLP Logix for work that sits below the orchestration layer. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists. Useful to know if a conversation eventually moves toward production pipeline engineering rather than methodology design.</p>
+
+      <div class="section-tag">V. Next step</div>
+      <p class="next">Thirty minutes with Matt Creamer. Bring one workflow that currently lives in two places (parent and a spin-out) and watch us redraw where its context should actually live.</p>
+
+      <div class="cta-block">
+        <a class="btn primary wide" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book the thirty minutes</a>
+        <span class="cta-meta">calendly.com/thecro-eduba/30min</span>
+      </div>
+
+    </article>
+  </div>
+</section>
+
+<section class="divider" aria-hidden="true"><div class="wrap"><span class="rule"></span></div></section>
+
+<section class="dossier">
+  <div class="wrap">
+    <div class="section-tag">Reference dossier</div>
+    <div class="dossier-grid">
+
+      <div class="dcard">
+        <div class="dcard-h">Interpretable Context Methodology</div>
+        <p>Agent context as a layered filesystem, L0 through L4. Submitted to ACM TiiS.</p>
+        <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>
+      </div>
+
+      <div class="dcard">
+        <div class="dcard-h">Ethics Engine</div>
+        <p>A psychometric assessment tool for evaluating ideological and moral patterns in LLMs. Relevant to the federal and regulated surface area.</p>
+        <a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">arxiv.org/abs/2510.11742</a>
+        <a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">github.com/RinDig/AuditEngine</a>
+      </div>
+
+      <div class="dcard">
+        <div class="dcard-h">Correlation One deployment</div>
+        <p>1,500+ learners trained across Pacific Life and Colgate-Palmolive since May 2025. 6,000 to 9,000 hours saved per year. 95% still using the tools 30 days after the workshop.</p>
+      </div>
+
+      <div class="dcard">
+        <div class="dcard-h">Credential stack</div>
+        <p>Marine Corps veteran, cryptographic systems, F-35/F-18 avionics. MSc Future Governance, University of Edinburgh. Published in ACM TiiS and arXiv.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <span>Prepared by Eduba, <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></span>
+    <span class="f-meta">Private memorandum for Entanglement, Inc. / not indexed</span>
+  </div>
+</footer>
+
+</body>
+</html>
